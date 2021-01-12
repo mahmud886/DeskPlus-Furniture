@@ -21,7 +21,7 @@ body {
 	font-weight: bold;
 	display: inline-block;
 }
-:hover {
+.main-btn:hover {
 	background: #ffffff;
 	color: #083c6e;
 }
@@ -75,17 +75,118 @@ ul li a {
 }
 
 /* <!-- Stationary Section  --> */
-.stationary-contents {
+.stationary-contents h2 {
 	text-align: center;
 }
+
+.stationary-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.single-img1 {
+	width: 340px;
+	height: 250px;
+	background: url(), #c4c4c4;
+	box-shadow: 0px 7px 15px rgba(8, 60, 110, 0.1);
+}
+/* .single-contents {
+	width: 340px;
+	height: 70px;
+} */
+.stationary-section {
+	padding-top: 50px;
+}
+
+.stationary-content-inline {
+	background-color: #083c6e;
+	width: 340px;
+	height: 55px;
+	padding-top: 7px;
+}
+.stationary-content-inline h3 {
+	display: inline;
+	margin-right: 10px;
+	color: #fff;
+	margin-left: 20px;
+}
+.stationary-main-btn {
+	padding: 10px 35px;
+	color: #ffffff;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in;
+	font-weight: bold;
+	display: inline-block;
+	border: 1px solid #fff;
+	margin-left: 40px;
+	border-radius: 5px;
+	transition: all 0.4 ease-in-out;
+}
+.stationary-main-btn:hover {
+	background-color: #ffffff;
+	color: #083c6e;
+}
 /* <!-- Oder Now Section  --> */
-
+.order-now-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.order-now-single-div {
+	width: 448px;
+	height: 324px;
+}
+.order-now-image {
+	width: 433px;
+	height: 273px;
+	background: #c4c4c4;
+	transform: rotate(-180deg);
+}
 /* <!-- Video Section  --> */
-
+.video-section {
+	background: #152242;
+	opacity: 0.5;
+	text-align: center;
+}
 /* <!-- Benefits Section  --> */
-
+.benefits-column-section {
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.single-benetits {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.benefits-contents h3 {
+	font-size: 32px;
+}
 /* <!-- Best Experience Section  --> */
-
+.best-experience-main-contents {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.experience-contentss {
+	width: 445px;
+	height: 367px;
+}
+.experience-contentss h3 {
+	font-size: 38px;
+	padding-bottom: 10px;
+}
 /* <!-- Support Section  --> */
-
+.support-contents {
+	text-align: center;
+}
+.support-contents p {
+	padding-top: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
 /* <!-- Footer Section  --> */
+footer {
+	text-align: center;
+}
